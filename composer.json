@@ -1,0 +1,45 @@
+{
+    "type": "drupal-dtt",
+    "name": "sweetchuck/dtt-group",
+    "description": "@todo project description",
+    "keywords": [
+        "drupal",
+        "test-trait",
+        "group"
+    ],
+    "authors": [
+        {
+            "name": "Dávid Andor",
+            "role": "Maintainer",
+            "homepage": "https://github.com/Sweetchuck"
+        }
+    ],
+    "homepage": "https://github.com/Sweetchuck/dtt-group",
+    "support": {
+        "source": "https://github.com/Sweetchuck/dtt-group",
+        "issues": "https://github.com/Sweetchuck/dtt-group/issues"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "repositories": {},
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Sweetchuck\\DrupalTestTraits\\Group\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {},
+    "scripts-descriptions": {}
+}
